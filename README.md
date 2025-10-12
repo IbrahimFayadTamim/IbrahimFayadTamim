@@ -52,7 +52,7 @@ I also learned the importance of automating repetitive tasks, such as SIEM queri
 ---
 
 ## 🔗 References
-- [Let'sDefend Platform](https://letsdefend.io)  
+- [Let'sDefend Platform](https://app.letsdefend.io/challenge/phishing-email)
 - [VirusTotal](https://www.virustotal.com)  
 - [urlscan.io](https://urlscan.io)  
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)  
