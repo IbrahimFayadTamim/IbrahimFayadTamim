@@ -40,45 +40,6 @@ This hands-on exercise demonstrates my ability to identify phishing attacks, ana
 
 ---
 
-## 🧾 Project Files
-| Folder / File | Description |
-|----------------|-------------|
-| `Final_Project_Report_READY.docx` | Complete report (Word format) |
-| `Final_Project_Report_READY.pdf` | Final PDF report for submission |
-| `/evidence/` | Screenshots and logs collected during the challenge |
-| `README.md` | Project documentation (this file) |
-| `/presentation/` *(optional)* | PowerPoint slides for 5-minute presentation |
-
----
-
-## 📂 Evidence Files
-Ensure the following evidence is included in your repository:
-
-| File | Description |
-|------|--------------|
-| `01_account_screenshot.png` | LetsDefend account page showing FedUni email |
-| `02_challenge_page.png` | Phishing challenge overview (PayPal email example) |
-| `03_email_raw_headers.txt` | Extracted raw headers from the phishing email |
-| `04_attachment_sandbox.png` | Sandbox screenshot showing malicious macro activity |
-| `05_virustotal_results.png` | VirusTotal analysis result of link or attachment |
-| `06_siem_results.png` | SIEM logs showing process creation & outbound connection |
-| `07_completion_screenshot.png` | Proof of challenge completion |
-
-> ⚠️ Before publishing your GitHub repository, remove any personal or sensitive data (e.g., login details or unredacted email addresses).
-
----
-
-## 📊 Results Summary
-| Component | Finding |
-|------------|----------|
-| **Sender Domain** | Spoofed PayPal address with failed SPF & DKIM |
-| **Attachment** | `Invoice_2025.docm` – macro executed PowerShell to download payload |
-| **Malicious Link** | Redirected to credential harvesting site |
-| **IoCs Identified** | IP: `203.0.113.45`, Domain: `ex-payments.com` |
-| **Containment Actions** | Host isolated, credentials reset, malicious IP/domain blocked |
-
----
-
 ## 💡 Reflection
 This project improved my understanding of phishing detection and SOC workflows.  
 It reinforced practical skills in:
@@ -87,15 +48,6 @@ It reinforced practical skills in:
 - Documenting incident response steps using real-world frameworks.  
 
 I also learned the importance of automating repetitive tasks, such as SIEM queries, and capturing forensic images before remediation.
-
----
-
-## 🎤 Presentation (5-Minute Slide Outline)
-1. **Title & Objective** — Overview of the phishing incident investigation.  
-2. **Challenge Context** — Description of the PayPal phishing email.  
-3. **Investigation Process** — Email header, sandbox, and SIEM/EDR analysis.  
-4. **Findings** — Indicators of compromise, malicious IPs/domains.  
-5. **Containment & Lessons Learned** — Actions taken and key reflections.  
 
 ---
 
