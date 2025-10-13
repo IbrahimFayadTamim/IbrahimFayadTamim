@@ -56,15 +56,7 @@ I also learned the importance of automating repetitive tasks, such as SIEM queri
 - [VirusTotal](https://www.virustotal.com)  
 - [urlscan.io](https://urlscan.io)  
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)  
-
----
-
-## ✅ Submission Notes
-- The **PDF report** should be uploaded to Moodle as  
-  `Tamim 30479946 FinalProject_Report.pdf`  
-- The **GitHub repository** should be set to *Public* for academic verification.  
-- Ensure all screenshots clearly show your **FedUni email** for authenticity.  
-
+ 
 ---
 
 ### © 2025 — Ibrahim Fayad Tamim  
